@@ -74,12 +74,12 @@ function App() {
             <p>What happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
-        <div>
+        <div>public/assets/images/image-gaming-growth.jpg
           <div>
-            <img src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
+            <img src="/assets/images/image-gaming-growth.jpg" alt="image-gaming-growth" />
           </div>
           <div>
-            <p>01</p>
+            <p>03</p>
             <p>Reviving Retro PCs</p>
             <p>What happens when old PCs are given modern upgrades?</p>
           </div>
