@@ -53,6 +53,38 @@ function App() {
           </div>
           </div>
        </div>
+       <div>
+        <div>
+          <div>
+            <img src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
+          </div>
+          <div>
+            <p>01</p>
+            <p>Reviving Retro PCs</p>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
+          </div>
+          <div>
+            <p>01</p>
+            <p>Reviving Retro PCs</p>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
+          </div>
+          <div>
+            <p>01</p>
+            <p>Reviving Retro PCs</p>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+       </div>
     </>
   )
 }
