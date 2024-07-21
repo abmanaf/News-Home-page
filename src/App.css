@@ -15,7 +15,7 @@
   --very-dark-blue: hsl(240, 100%, 5%);
 }
 body {
-  margin: 4em 10em;
+  margin: 4em 13em;
 }
 ul {
   list-style-type: none;
@@ -52,14 +52,13 @@ a {
   display: flex;
   align-items: center;
   gap: 6em;
-  margin-top: -2em;
 }
 .right-container {
+  width: 32rem;
+  display: flex;
+  padding: 1.5em;
   background-color: var(--very-dark-blue);
   color: var(--off-white);
-  padding: 2em;
-  display: flex;
-  align-items: center;
 }
 .inner-left-right-container p {
   font-size: 1.4em;
@@ -71,7 +70,7 @@ h1 {
   color: var(--soft-orange);
 }
 h2 {
-  font-size: 3em;
+  font-size: 2.1em;
   font-weight: 700;
 }
 .line {
