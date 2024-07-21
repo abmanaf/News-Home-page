@@ -23,20 +23,33 @@ function App() {
         </div>
        </div>
        <div className='main-container'>
-       <div className='left-container'>
-        <img src="/assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" />
-       </div>
-       <div className='right-container'>
-        <h2>New</h2>
-        <p>Hygrogen vs Electric Cars</p>
-        <span>Will hygrogen-fueled cars ever catch up to EVs?</span>
-        <hr />
-        <p>The Downsides of AI Artistry</p>
-        <span>What are the possible adverse effects of on-demand AI image generation?</span>
-        <hr />
-        <p>Is VS Funding Drying Up?</p>
-        <span>Privae funding by VC firms is down 50% YOY. We take a look at what that means.</span>
-       </div>
+          <div className='left-container'>
+            <img src="/assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" />
+            <div className='sub-left-container'>
+            <div>
+              <h2>The Bright Future of web 3.0?</h2>
+            </div>
+            <div className='inner-left-right-container'>
+              <p>
+                We die into the next evolution of the web that 
+                claims to put the power of the platfoms back into
+                the hands of the people, But is it really fulfilling promises?
+              </p>
+              <button>Read more</button>
+            </div>
+            </div>
+          </div>
+          <div className='right-container'>
+            <h1>New</h1>
+            <p>Hygrogen vs Electric Cars</p>
+            <span>Will hygrogen-fueled cars ever catch up to EVs?</span>
+            <hr className='line' />
+            <p>The Downsides of AI Artistry</p>
+            <span>What are the possible adverse effects of on-demand AI image generation?</span>
+            <hr className='line'/>
+            <p>Is VS Funding Drying Up?</p>
+            <span>Privae funding by VC firms is down 50% YOY. We take a look at what that means.</span>
+          </div>
        </div>
     </>
   )
