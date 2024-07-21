@@ -53,8 +53,8 @@ function App() {
           </div>
           </div>
        </div>
-       <div>
-        <div>
+       <div className='final-container'>
+        <div className='inner-final-container'>
           <div>
             <img src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
           </div>
@@ -64,24 +64,24 @@ function App() {
             <p>What happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
-        <div>
+        <div className='inner-final-container'>
           <div>
-            <img src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
+            <img src="/assets/images/image-top-laptops.jpg" alt="image-top-laptops" />
           </div>
           <div>
-            <p>01</p>
-            <p>Reviving Retro PCs</p>
-            <p>What happens when old PCs are given modern upgrades?</p>
+            <p>02</p>
+            <p>Top 10 Laptops of 2022</p>
+            <p>Our best picks for various needs and budgets.</p>
           </div>
         </div>
-        <div>public/assets/images/image-gaming-growth.jpg
+        <div className='inner-final-container'>
           <div>
             <img src="/assets/images/image-gaming-growth.jpg" alt="image-gaming-growth" />
           </div>
           <div>
             <p>03</p>
-            <p>Reviving Retro PCs</p>
-            <p>What happens when old PCs are given modern upgrades?</p>
+            <p>The Growth of Gaming</p>
+            <p>How the pandemic has sparked fresh opportunities</p>
           </div>
         </div>
        </div>
