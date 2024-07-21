@@ -52,6 +52,7 @@ a {
   display: flex;
   align-items: center;
   gap: 6em;
+  margin-top: -2em;
 }
 .right-container {
   background-color: var(--very-dark-blue);
