@@ -58,6 +58,7 @@ a {
   color: var(--off-white);
   padding: 2em;
   display: flex;
+  align-items: center;
 }
 .inner-left-right-container p {
   font-size: 1.4em;
