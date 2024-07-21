@@ -40,6 +40,7 @@ function App() {
             </div>
           </div>
           <div className='right-container'>
+            <div className='inner-right-container'>
             <h1>New</h1>
             <p>Hygrogen vs Electric Cars</p>
             <span>Will hygrogen-fueled cars ever catch up to EVs?</span>
@@ -49,6 +50,7 @@ function App() {
             <hr className='line'/>
             <p>Is VS Funding Drying Up?</p>
             <span>Privae funding by VC firms is down 50% YOY. We take a look at what that means.</span>
+          </div>
           </div>
        </div>
     </>
