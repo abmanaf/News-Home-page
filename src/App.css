@@ -57,6 +57,7 @@ a {
   background-color: var(--very-dark-blue);
   color: var(--off-white);
   padding: 2em;
+  display: flex;
 }
 .inner-left-right-container p {
   font-size: 1.4em;
