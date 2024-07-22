@@ -38,10 +38,14 @@ a {
 .header-items ul li a {
   color: var(--dark-grayish-blue);
 }
+
+.header-items ul li a:hover {
+  color: var(--soft-red);
+}
 .main-container {
   display: flex;
   margin-top: 3em;
-  gap: 2em;
+  gap: 1.5em;
 }
 .left-container {
   width: 100%;
@@ -110,7 +114,7 @@ button {
   display: flex;
   align-items: center;
   margin-top: 5em;
-  gap: 4.5em;
+  gap: 3.5em;
 }
 
 .inner-final-container {
@@ -120,4 +124,8 @@ button {
 
 .inner-final-container .image img {
   width: 80%;
+}
+.final-container-sub-header:hover {
+  color: var(--soft-red);
+  cursor: pointer;
 }
