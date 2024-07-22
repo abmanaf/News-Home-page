@@ -83,6 +83,10 @@ a {
   background-color: var(--very-dark-blue);
   color: var(--off-white);
 }
+.right-container .inner-right-container p:hover {
+  color: var(--soft-orange);
+  cursor: pointer;
+}
 
 .right-container .inner-right-container span {
   line-height: 1.5em;
@@ -109,6 +113,12 @@ button {
   font-weight: 600;
   color: var(--very-dark-blue);
   text-transform: uppercase;
+}
+
+button:hover {
+  background-color: var(--very-dark-blue);
+  color: var(--off-white);
+  cursor: pointer;
 }
 .final-container {
   display: flex;
