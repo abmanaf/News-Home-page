@@ -45,7 +45,7 @@ function App() {
             <div className='inner-right-container'>
             <h1>New</h1>
             <p>Hygrogen vs Electric Cars</p>
-            <span>Will hygrogen-fueled cars ever catch up to EVs?</span>
+            <span >Will hygrogen-fueled cars ever catch up to EVs?</span>
             <hr className='line' />
             <p>The Downsides of AI Artistry</p>
             <span>What are the possible adverse effects of on-demand AI image generation?</span>
@@ -62,7 +62,7 @@ function App() {
           </div>
           <div className='final-text'>
             <h2 style={{color: 'var(--soft-red)', fontSize: '2em'}}>01</h2>
-            <p  style={{fontSize:'1.1em', fontWeight: '700'}}>Reviving Retro PCs</p>
+            <p className='final-container-sub-header' style={{fontSize:'1.1em', fontWeight: '700'}}>Reviving Retro PCs</p>
             <p>What happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
@@ -72,7 +72,7 @@ function App() {
           </div>
           <div className='final-text'>
             <h2 style={{color: 'var(--soft-red)', fontSize: '2em'}}>02</h2>
-            <p  style={{fontSize:'1.1em', fontWeight: '700'}}>Top 10 Laptops of 2022</p>
+            <p  className='final-container-sub-header' style={{fontSize:'1.1em', fontWeight: '700'}}>Top 10 Laptops of 2022</p>
             <p>Our best picks for various needs and budgets.</p>
           </div>
         </div>
@@ -83,7 +83,7 @@ function App() {
           <div className='final-text'>
             <div>
             <h2 style={{color: 'var(--soft-red)', fontSize: '2em'}}>03</h2>
-            <p style={{fontSize:'1.1em', fontWeight: '700'}}>The Growth of Gaming</p>
+            <p   className='final-container-sub-header'style={{fontSize:'1.1em', fontWeight: '700'}}>The Growth of Gaming</p>
             <p>How the pandemic has sparked fresh opportunities</p>
           </div>
           </div>
