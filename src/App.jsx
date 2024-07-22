@@ -26,8 +26,10 @@ function App() {
           <div className='left-container'>
             <img src="/assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" />
             <div className='sub-left-container'>
-            <div>
+            <div className='first-sub-left-container'>
+              <div className='topic'>
               <h2>The Bright Future of web 3.0?</h2>
+              </div>
             </div>
             <div className='inner-left-right-container'>
               <p>
@@ -55,33 +57,35 @@ function App() {
        </div>
        <div className='final-container'>
         <div className='inner-final-container'>
-          <div>
+          <div className='image'>
             <img src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
           </div>
-          <div>
-            <p>01</p>
-            <p>Reviving Retro PCs</p>
+          <div className='final-text'>
+            <h2 style={{color: 'var(--soft-red)', fontSize: '2em'}}>01</h2>
+            <p  style={{fontSize:'1.1em', fontWeight: '700'}}>Reviving Retro PCs</p>
             <p>What happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
         <div className='inner-final-container'>
-          <div>
+          <div className='image'>
             <img src="/assets/images/image-top-laptops.jpg" alt="image-top-laptops" />
           </div>
-          <div>
-            <p>02</p>
-            <p>Top 10 Laptops of 2022</p>
+          <div className='final-text'>
+            <h2 style={{color: 'var(--soft-red)', fontSize: '2em'}}>02</h2>
+            <p  style={{fontSize:'1.1em', fontWeight: '700'}}>Top 10 Laptops of 2022</p>
             <p>Our best picks for various needs and budgets.</p>
           </div>
         </div>
         <div className='inner-final-container'>
-          <div>
+          <div className='image'>
             <img src="/assets/images/image-gaming-growth.jpg" alt="image-gaming-growth" />
           </div>
-          <div>
-            <p>03</p>
-            <p>The Growth of Gaming</p>
+          <div className='final-text'>
+            <div>
+            <h2 style={{color: 'var(--soft-red)', fontSize: '2em'}}>03</h2>
+            <p style={{fontSize:'1.1em', fontWeight: '700'}}>The Growth of Gaming</p>
             <p>How the pandemic has sparked fresh opportunities</p>
+          </div>
           </div>
         </div>
        </div>
