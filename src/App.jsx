@@ -1,30 +1,20 @@
 import { useState } from 'react'
+import NavBar from './NavBar'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
-import './App.css'
+//import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='header'>
-        <div className='site-logo'>
-          <img src="/assets/images/logo.svg" alt="logo" />
-        </div>
-        <div className='header-items'>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">New</a></li>
-            <li><a href="#">Popular</a></li>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">Category</a></li>
-          </ul>
-        </div>
-       </div>
+    <NavBar/>
        <div className='main-container'>
           <div className='left-container'>
-            <img src="/assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" />
+            <img className='desktop-image' src="/assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" />
+            <img className='mobile-image' src="/assets/images/image-web-3-mobile.jpg" alt="image-web-3-desktop" />
+
             <div className='sub-left-container'>
             <div className='first-sub-left-container'>
               <div className='topic'>
