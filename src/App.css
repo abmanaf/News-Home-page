@@ -201,10 +201,11 @@ button:hover {
   .final-container {
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 1em;
+    gap: 1em;
   }
-
-  .inner-final-container .image img {
-    width: 90%;
+  .inner-final-container img {
+    width: 35%;
   }
 
   .inner-final-container {
@@ -214,6 +215,11 @@ button:hover {
 
   .inner-final-container .image {
     width: 50%;
+  }
+
+  .last-final-text {
+    line-height: 16px;
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 768px) {
@@ -264,9 +270,20 @@ button:hover {
   .right-container {
     width: 100%;
     padding: 1.5em;
+    gap: 0;
+  }
+  .right-container .inner-right-container h1 {
+    font-size: 3em;
+  }
+  .right-container .inner-right-container p {
+    font-size: 2em;
+  }
+  .right-container .inner-right-container span {
+    font-size: 1.5em;
   }
   .final-container {
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 3em;
   }
 }
