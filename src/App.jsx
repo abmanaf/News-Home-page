@@ -47,14 +47,12 @@ function App() {
        </div>
        <div className='final-container'>
         <div className='inner-final-container'>
-          <div className='image'>
             <img src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
-          </div>
           <div className='final-text'>
             <div className='inner-final-text'>
             <h2 style={{color: 'var(--soft-red)', fontSize: '2em',marginBottom: '-0.2em'}}>01</h2>
             <p className='final-container-sub-header' style={{fontSize:'1.1em', fontWeight: '700',marginBottom: '-0.2em'}}>Reviving Retro PCs</p>
-            <p className='last-final-text'>What happens when old PCs are given modern upgrades?</p>      
+            <p className='last-final-text' >What happens when old PCs are given modern upgrades?</p>      
             </div>
             </div>
         </div>
