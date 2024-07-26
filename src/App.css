@@ -60,7 +60,6 @@ a {
 }
 .sub-left-container {
   width: 100%;
-  height: 13rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,9 +127,10 @@ button:hover {
 }
 .final-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-top: 5em;
-  gap: 3em;
+  gap: 1.5em;
 }
 .final-text {
   display: flex;
@@ -139,10 +139,15 @@ button:hover {
 .inner-final-container {
   display: flex;
   align-items: center;
+  gap: 1em;
+  height: 10rem;
 }
-.inner-final-container .image img {
-  width: 80%;
+
+.inner-final-container img {
+  width: 10rem;
+  height: 10rem;
 }
+
 .final-container-sub-header:hover {
   color: var(--soft-red);
   cursor: pointer;
@@ -150,6 +155,68 @@ button:hover {
 .last-final-text {
   color: var(--dark-grayish-blue);
   line-height: 26px;
+  font-size: 15px;
+}
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--very-dark-blue);
+  margin: 5px 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: var(--off-white);
+  color: var(--very-dark-blue);
+  padding: 1em;
+  transition: right 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.sidebar .close-button {
+  background: none;
+  border: none;
+  color: var(--off-white);
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+.close-button img {
+  right: 0;
+  margin-left: 10em;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 1.5em;
+}
+
+.sidebar ul li a {
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0.5em;
+  font-weight: 500;
+}
+
+.sidebar ul li a:hover {
+  color: var(--soft-red);
 }
 
 @media only screen and (max-width: 500px) {
@@ -164,7 +231,8 @@ button:hover {
   }
   .main-container {
     flex-direction: column;
-    gap: 9em;
+    gap: 2.5em;
+    margin-top: 2em;
   }
   .sub-left-container {
     flex-direction: column;
@@ -175,6 +243,10 @@ button:hover {
   }
   .desktop-image {
     display: none;
+  }
+
+  .sub-left-container {
+    gap: 1em;
   }
 
   .sub-left-container .first-sub-left-container {
@@ -188,9 +260,9 @@ button:hover {
   }
 
   .sub-left-container .first-sub-left-container h2 {
-    font-size: 45px;
+    font-size: 44px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 42px;
     margin-top: 10px;
   }
 
@@ -205,24 +277,41 @@ button:hover {
     gap: 1em;
   }
   .inner-final-container img {
-    width: 35%;
+    width: 30%;
+  }
+
+  .inner-final-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    height: auto;
+  }
+
+  .inner-final-container img {
+    height: auto;
   }
 
   .inner-final-container {
     width: 100%;
-    gap: 0.5em;
+    gap: 1em;
   }
-
-  .inner-final-container .image {
-    width: 50%;
-  }
-
   .last-final-text {
     line-height: 16px;
     font-size: 14px;
   }
+  .menu-icon {
+    display: block;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+
+  .desktop-image {
+    display: none;
+  }
 }
-@media only screen and (min-width: 501px) and (max-width: 768px) {
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
   body {
     margin: 1em 1em;
   }
@@ -235,8 +324,10 @@ button:hover {
   }
   .main-container {
     flex-direction: column;
-    gap: 9em;
+    gap: 2em;
+    margin-top: 2em;
   }
+
   .sub-left-container {
     flex-direction: column;
     gap: 0;
@@ -261,9 +352,9 @@ button:hover {
   }
 
   .sub-left-container .first-sub-left-container h2 {
-    font-size: 45px;
+    font-size: 54px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 45px;
     margin-top: 10px;
   }
 
@@ -281,9 +372,47 @@ button:hover {
   .right-container .inner-right-container span {
     font-size: 1.5em;
   }
+  .inner-left-right-container p {
+    font-size: 15px;
+  }
   .final-container {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 3em;
+  }
+
+  .inner-final-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    height: auto;
+  }
+
+  .inner-final-container img {
+    width: 20%;
+  }
+  .inner-final-container img {
+    height: auto;
+  }
+
+  .inner-final-container {
+    width: 100%;
+    gap: 1em;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1286px) {
+  body {
+    margin: 1em 1em;
   }
 }
