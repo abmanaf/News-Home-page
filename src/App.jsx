@@ -17,9 +17,7 @@ function App() {
 
             <div className='sub-left-container'>
             <div className='first-sub-left-container'>
-              <div className='topic'>
               <h2>The Bright Future of web 3.0?</h2>
-              </div>
             </div>
             <div className='inner-left-right-container'>
               <p>
@@ -57,9 +55,7 @@ function App() {
             </div>
         </div>
         <div className='inner-final-container'>
-          <div className='image'>
             <img src="/assets/images/image-top-laptops.jpg" alt="image-top-laptops" />
-          </div>
           <div className='final-text'>
             <div className='inner-final-text'>
             <h2 style={{color: 'var(--soft-red)', fontSize: '2em', marginBottom: '-0.3em'}}>02</h2>
@@ -69,9 +65,7 @@ function App() {
           </div>
         </div>
         <div className='inner-final-container'>
-          <div className='image'>
             <img src="/assets/images/image-gaming-growth.jpg" alt="image-gaming-growth" />
-          </div>
           <div className='final-text'>
             <div className='inner-final-text'>
             <h2 style={{color: 'var(--soft-red)', fontSize: '2em',marginBottom: '-0.2em'}}>03</h2>
