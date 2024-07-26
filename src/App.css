@@ -174,9 +174,9 @@ button:hover {
   background-color: var(--off-white);
   color: var(--very-dark-blue);
   padding: 1em;
+  z-index: 9999;
   transition: right 0.3s ease-in-out;
 }
-
 .sidebar.open {
   right: 0;
 }
