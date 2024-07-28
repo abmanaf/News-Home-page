@@ -5,7 +5,6 @@ function NavBar() {
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
-    //setIsSidebarOpen(true)
   };
 
   return (
